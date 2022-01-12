@@ -102,10 +102,10 @@ params:
       #   theme: github-light
 
   # specify whether you want to show Table of Contents in reading page
-  enableTOC: true
+  enableTOC: false
 
   # Show tags under the post title
-  enableTags: true
+  enableTags: false
 
   # If you want to use different country flag for a language, specify them here.
   # flagOverwrites:
