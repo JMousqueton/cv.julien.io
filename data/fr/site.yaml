@@ -19,6 +19,6 @@ customMenus:
 openGraph:
   title: Julien Mousqueton CTO 
   type: website
-  description: Curriculum Vitae of Julien Mousqueton.
-  image: images/author/john.png
+  description: Curriculum Vitae de Julien Mousqueton.
+  image: images/author/julien.png
   url: http://cv.julien.io
