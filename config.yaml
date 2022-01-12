@@ -54,7 +54,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/CV-Julien-Mousqueton
+  gitRepo: https://github.com/cv.julien.io
   # Default branch of your Git repo
   gitBranch: main
 
