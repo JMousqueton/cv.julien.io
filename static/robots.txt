@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: 
+Disallow: /search
+Disallow: /tags
+Disallow: /notes
+Disallow: /posts
+Disallow: /categories
+Sitemap: https://cv.julien.io/sitemap.xml
