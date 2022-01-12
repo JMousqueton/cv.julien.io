@@ -42,7 +42,7 @@ projects:
   role: Creator
   timeline: "2020 - Present"
   repo: https://github.com/JMousqueton/OpenCTI-Docker
-  summary: A Docker-compose file ready to launch an OpenCTI and also several connectors, ready to work.  
+  summary: A Docker-compose file ready to launch OpenCTI and several connectors, ready to work.  
   tags: ["Personnel", "CyberSecurity"]
 
 - name: Cyber-News 
@@ -51,7 +51,7 @@ projects:
   timeline: "Octobre 2021 - Present"
   repo: 
   url: "https://www.cyber-news.fr" 
-  summary: Cyber-News is a site similar Reddit, but dedicated on cybersecurity matters. Community can vote and/or comment links.
+  summary: Cyber-News is a site similar to Reddit but only dedicated on cybersecurity topics.
   tags: ["Personnel", "CyberSecurity"]
 
 - name: BOAMP Extractor
@@ -60,7 +60,7 @@ projects:
   timeline: "Jan 2022 - Present"
   repo: https://github.com/JMousqueton/boamp-extractor
   # url: https://boamp.mousqueton.io
-  summary: extract and filter call for tenders based on keywords 
+  summary: extract and filter call for tenders based on keywords published on BOAMP
   tags: ["Professionel", "Business"]
 
 - name: TrollProd
