@@ -13,8 +13,8 @@ section:
 skills:
 - name: Cyber Security
   logo: /images/sections/skills/cybersecurite.png
-  summary: "Since 2019 get specialised in Ransomware attacks in France. Build the CyberSecurity Operation Center. Give lessons in a Cyber Security University"
-
+  summary: "Since 2019 specialist in Ransomware attacks in France. Build CyberSecurity Operation Center. Give courses in a Cyber Security School"
+  
 - name: IT Infrastructure
   logo: /images/sections/skills/it.png
   summary: "Design news Infrastructure (virtualization, storage, network, security) on-premise and hybrid."
