@@ -1,0 +1,140 @@
+baseURL: https://cv.julien.io
+
+languageCode: en-us
+title: "Julien Curriculum Vitae" 
+theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English
+    weight: 1
+  fr:
+    languageName: Français
+    weight: 2
+
+# Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
+DefaultContentLanguage: en
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Enable Google Analytics
+googleAnalytics: 
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  # Background image of the landing page
+  background: /images/site/background.png
+
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
+  logo:
+    main: /images/site/favicon.png
+    inverted: /images/site/favicon.png
+    favicon: /images/site/favicon.png
+
+  # GitHub repo of your site
+  gitRepo: https://github.com/CV-Julien-Mousqueton
+  # Default branch of your Git repo
+  gitBranch: main
+
+  # Configure various features of this theme
+  features:
+    # Enable and configure portfolio
+    portfolio:
+      enable: false
+    # Enable and configure blog posts
+    blog:
+      enable: false
+      # Share post on different social media
+      shareButtons:
+        facebook: false
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: false
+        email: true
+        # tumblr: true
+        # pocket: true
+        # diaspora: true
+        # mastodon: true
+
+    # Enable & configure "Notes" features
+    notes:
+      enable: false
+
+    # Enable comment feature. There, should be only one of them.
+    comment:
+      enable: false
+      disqus:
+        shortName: toha-example-site
+      # valine:
+      #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
+      #   appKey: pVrT3C85KGIuk27t07eh6bUC
+      #   avatar: retro
+      #   placeholder: Share your thought.
+      #   lang: en
+      #   recordIP: true
+      #   enableQQ: true
+      # utteranc:
+      #   repo: github.com/hugo-toha/hugo-toha.github.io
+      #   issueTerm: title
+      #   theme: github-light
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Show tags under the post title
+  enableTags: true
+
+  # If you want to use different country flag for a language, specify them here.
+  # flagOverwrites:
+  # - languageCode: en
+  #   countryCode: us
+
+  # Provide footer configuration.
+  footer:
+    enable: true
+    # You can provide your custom footer template using this option.
+    # Put your template in "layouts/partials" folder of your repo.
+    template: footer.html
+    # Show/hide navigation in the footer. Default is "true".
+    navigation:
+      enable: true
+    # Show/hide "Contact Me" section in the footer. Default is "true".
+    contactMe:
+      enable: true
+    # Show/hide credentials section in the footer. Default is "true".
+    credentials:
+      enable: false
+
+    # Show/hide newsletter section in the footer. Default is "true".
+    # Currently, it supports "mailchimp".
+    newsletter:
+      enable: false
+      provider: mailchimp
+      mailchimpURL: 
+
+    # Show/hide disclaimer notice in the footer. Default is "false".
+    disclaimer:
+      enable: false

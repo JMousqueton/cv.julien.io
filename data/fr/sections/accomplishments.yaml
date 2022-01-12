@@ -1,0 +1,20 @@
+## section information
+#section:
+#  name: Certifications
+#  id: accomplishments
+#  enable: true
+#  weight: 7
+#  showOnNavbar: true
+#  # Can optionally hide the title in sections
+#  # hideTitle: true
+
+
+## Your accomplishments
+#accomplishments:
+#- name: Linux Foundation System Administrator
+#  timeline: "March 2018 - March 2019"
+#  organization:
+#    name: Linux Foundation
+#    url: https://www.linuxfoundation.org
+#  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
+#  certificateURL: "https://example.com"

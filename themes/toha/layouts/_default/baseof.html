@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Page.Title }}</title>
+    <!------ ADD COMMON HEADERS -------->
+    {{- partial "header.html" . -}}
+    {{ template "_internal/opengraph.html" . }}
+
+    <!------ ADD PAGE SPECIFIC HEADERS ------->
+    {{ block "header" . }} {{ end }}
+
+    <!-- ADD GOOGLE ANALYTICS IF ENABLED -->
+    {{ if site.GoogleAnalytics }}
+        <!-- Google Analytics v3  ID -->
+        {{ if hasPrefix site.GoogleAnalytics "UA-"}}
+          {{ template "_internal/google_analytics_async.html" . }}
+        {{ else }}
+          <!-- Google Analytics v4  ID -->
+          {{ template "_internal/google_analytics.html" . }}
+        {{ end }}
+    {{ end }}
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      <!----- ADD NAVBAR --------------->
+      {{ block "navbar" . }} {{ end }}
+
+      <!----- ADD SIDEBAR --------------->
+      {{ block "sidebar" . }} {{ end }}
+
+      <!----- ADD PAGE CONTENT --------->
+      {{ block "content" . }} {{ end }}
+
+      <!----- ADD TABLE OF CONTENTS ----------->
+      {{ block "toc" . }} {{ end }}
+    </div>
+
+    <!------- ADD FOOTER ------------>
+    {{ $footerTemplate:= site.Params.footer.template | default "footer.html" }}
+    {{- partial $footerTemplate . -}}
+
+    <!------- ADD COMMON SCRIPTS ------->
+    {{ partial "scripts.html" . }}
+
+    <!------- ADD PAGE SPECIFIC SCRIPTS ------>
+    {{ block "scripts" . }} {{ end }}
+  </body>
+</html>

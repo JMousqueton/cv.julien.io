@@ -1,0 +1,117 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Computacenter
+    url: "https://www.computacenter.com"
+    location: Paris, France
+    # company overview
+    overview: Computacenter is a British multinational that provides computer services to public- and private-sector customers. 
+  positions:
+  - designation: Chief Technology Officer 
+    start: 2018
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Definition of Technology offers.
+    - Technology Watch.
+    - Technical Enablement.
+    - Strategy and Design of Responses.
+    - Evangelisation.
+    - Partners Relationship.
+
+  - designation: Practice Leader 
+    start: 2016
+    end: 2018 
+    responsibilities:
+    - Develop the strategy for the Line of Business.
+    - Speaker for various IT events and conferences. 
+    - Partners Relationship.
+    - Technical & sales enablement.
+
+  - designation: Solution Architect
+    start: 2015
+    end: 2016 
+    responsibilities:
+    - Technical lead.
+    - Pre-Sales Technical Consultant.
+    - Technical enablement.
+
+- company:
+    name: Ecole 2600
+    url: "https://www.ecole2600.com"
+    location: Saint Qentin, France
+    # company overview
+    overview: 2600 is an inclusive school 100% dedicated to cybersecurity. 
+  positions:
+  - designation: Teacher 
+    start: 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Lessons on Ransomware.
+    - Lessons on IT Infrastructure.
+    - Lessons on Data Protection.
+
+- company:
+    name: Groupe AGRICA
+    url: "https://www.groupagrica.com"
+    location: Paris, France 
+    overview: Group AGRICA is a complementary social protection group dedicated to the agricultural world.
+  positions:
+  - designation: Head of Architects and Engineers
+    start: 2012
+    end: 2015
+    responsibilities:
+    - Assessment of systems architecture currently in place and work with technical staff to recommend the improvment solutions.
+    - Team management (2 Architects & 10 Engineers)
+    - Continuous research of current and emerging technologies and advice of changes where needed.
+    - Technical counterpart for the CISO.
+
+  - designation: Solution Architects 
+    start: 2007
+    end: 2012
+    responsibilities:
+    - Define and build the technical infrastructure - Network, Storage, Security and Virtualization.
+    - Implement ITIL process - change and configuration.
+    - Design and deploy a dual Datecenter architecture with continuous protection.
+
+
+- company:
+    name: Natexis.
+    url: "https://www.natexis.com"
+    location: Charenton, France
+    overview: Bank.
+  positions:
+  - designation: Datacenter Architect
+    start: 2002
+    end: 2007
+    responsibilities:
+    - Desgin Solution.
+    - Ensuring the security Best Practice.
+    - Answering RFP.
+- company:
+    name: CPAM de Paris.
+    url: "https://www.cpam75.fr"
+    location: Paris, France
+    overview: State Social Security Office 
+  positions:
+  - designation: Security Architect
+    start: 2001
+    end: 2002
+    responsibilities:
+    - Evolve the Data protection strategy.
+    - Maintain the security level of the company.
+    - Security enablement for the IT Department.
+

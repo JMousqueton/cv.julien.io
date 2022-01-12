@@ -1,0 +1,88 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Chief Technology Officer 
+# your company information
+company:
+  name: Computacenter
+  url: "https://www.computacenter"
+
+# your resume. this file path should be relative to you "static" directory
+resume: ""
+
+# a summary about you
+summary: 'As a Chief Technology Officer at Computacenter, I’m responsible for the strategy, sales enablement and technical proposition development. I’m running an integrated strategy and engagement with our customers and partners across our service portfolio.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "julien@mousqueton.io"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/JMousqueton"
+
+#- name: Stackoverflow
+#  icon: "fab fa-stack-overflow"
+#  url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/julienmousqueton"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/JMousqueton"
+
+- name: Blog
+  icon: "fab fa-wordpress"
+  url: "https://julien.io"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: VMware vExpert
+  url: ""
+  badge: "https://myvmworld.fr/wp-content/uploads/2018/10/vExpert-Badge-PRO-download.jpg"
+
+- type: certification
+  name: Cisco Champion
+  url: ""
+  badge: "https://images.credly.com/size/680x680/images/171686bc-1348-40ba-920e-40a3989035d7/Cisco_Champion_600x600px.png"
+
+- type: certification
+  name: Veeam Vanguard
+  url: ""
+  badge: "http://www.virtual-it.pl/news_logo_stale/veeam-vanguard-18.jpg"
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 90
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

@@ -1,0 +1,34 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Cyber Security
+  logo: /images/sections/skills/cybersecurite.png
+  summary: "Since 2019 get specialised in Ransomware attacks in France. Build the CyberSecurity Operation Center. Give lessons in a Cyber Security University"
+
+- name: IT Infrastructure
+  logo: /images/sections/skills/it.png
+  summary: "Design news Infrastructure (virtualization, storage, network, security) on-premise and hybrid."
+
+- name: Pre-Sales
+  logo: /images/sections/skills/presales.png
+  summary: "Listen to the customers to offer them the best solution in adequacy with the existing while preparing their future"
+
+- name: Stragegy
+  logo: /images/sections/skills/strategy.png
+  summary: "Define the company's strategy to support our clients in their digital transformation "
+#  url: "https://www.docker.com/"
+
+- name: Management
+  logo: /images/sections/skills/management.png
+  summary: "Crisis management, Team management"
+

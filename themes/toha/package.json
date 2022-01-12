@@ -1,0 +1,24 @@
+{
+  "name": "toha",
+  "version": "1.0.0",
+  "description": "A [Hugo](https://gohugo.io/) theme for a personal portfolio with minimalist design and responsiveness.",
+  "main": "index.js",
+  "scripts": {
+    "autoprefixer": "postcss static/css/*/*.css --use autoprefixer -r --no-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hossainemruz/toha.git"
+  },
+  "author": "Emruz Hossain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hossainemruz/toha/issues"
+  },
+  "homepage": "https://github.com/hossainemruz/toha#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^8.3.1"
+  }
+}

@@ -1,0 +1,19 @@
+# some information about you
+name: "Julien Mousqueton"
+nickname: "Julien"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/julien.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "julien@mousqueton.io"
+  phone: "+33 (0)6 33 55 64 28"
+  github: jmousqueton
+  linkedin: julienmousqueton
+
+# some summary about what you do
+summary:
+  - I am CTO at Computacenter
+  - I am a teacher in Cyber Security
+  - I am a blogger
+  - I am speaker in IT events
