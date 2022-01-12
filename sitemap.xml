@@ -1,1 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://cv.julien.io/en/sitemap.xml</loc><lastmod>2022-01-12T20:35:55+01:00</lastmod></sitemap><sitemap><loc>https://cv.julien.io/fr/sitemap.xml</loc><lastmod>2022-01-12T20:35:55+01:00</lastmod></sitemap></sitemapindex>
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>https://cv.julien.io/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io/fr/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io#about</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io#skills</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io#experiences</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io#education</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io#projects</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io/fr</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io/fr/#about</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io/fr/#skills</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io/fr/#experiences</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io/fr/#education</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://cv.julien.io/fr/#projects</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
