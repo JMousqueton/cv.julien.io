@@ -43,7 +43,7 @@ projects:
   timeline: "2020 - Present"
   repo: https://github.com/JMousqueton/OpenCTI-Docker
   summary: A Docker-compose file ready to launch OpenCTI and several connectors, ready to work.  
-  tags: ["Personnea", "Cyber Security"]
+  tags: ["Personnal", "Cyber Security"]
 
 - name: Cyber-News 
   logo: /images/sections/projects/cybersec.jpeg
@@ -52,7 +52,7 @@ projects:
   repo: 
   url: "https://www.cyber-news.fr" 
   summary: Cyber-News is a site similar to Reddit but only dedicated on cybersecurity topics.
-  tags: ["Personna l", "Cyber Security"]
+  tags: ["Personnal", "Cyber Security"]
 
 - name: BOAMP Extractor
   logo: /images/sections/projects/boamp.png
