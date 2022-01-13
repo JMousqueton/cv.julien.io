@@ -7,7 +7,7 @@ You can modify or distribute the theme without requiring any permission from the
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Curriculum Vitae of Julien Mousqueton.
+description: Curriculum Vitae de Julien Mousqueton, Directeur technique en Cybersécurité spécialisé dans les ransomwares.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -19,6 +19,6 @@ customMenus:
 openGraph:
   title: Julien Mousqueton CTO 
   type: website
-  description: Curriculum Vitae de Julien Mousqueton.
+  description: Curriculum Vitae de Julien Mousqueton, Directeur technique en Cybersécurité spécialisé dans les ransomwares.
   image: images/author/julien.jpeg
   url: http://cv.julien.io

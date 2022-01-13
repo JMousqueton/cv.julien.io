@@ -14,7 +14,7 @@ degrees:
   icon: fa-graduation-cap
   timeframe: 1998-1999
   institution:
-    name: Teesside University
+    name: Teesside University (🇬🇧)
     url: "#"
   extracurricularActivities: #(optional)
   - Rugby League
@@ -33,7 +33,7 @@ degrees:
   icon: fa-graduation-cap
   timeframe: 1996 - 1998
   institution:
-    name: Technology Institut Leonard de Vinci
+    name: Insitut Universitaire Technologique Leonard de Vinci (Reims)
     url: "#"
   #grade: #(optional)
   #  scale: CGPA
@@ -70,7 +70,7 @@ degrees:
   icon: fa-university
   timeframe: 1996
   institution:
-    name: Lycée Clemenceau
+    name: Lycée Clemenceau (Reims)
     url: "#"
 #  grade: #(optional)
 #    scale: GPA

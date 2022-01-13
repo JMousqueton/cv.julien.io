@@ -11,24 +11,24 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Cyber Security
+- name: Cybersécurité
   logo: /images/sections/skills/cybersecurite.png
-  summary: "Since 2019 specialist in Ransomware attacks in France. Build CyberSecurity Operation Center. Give courses in a Cyber Security School"
+  summary: "Depuis 2019, je me suis spécialisé dans les cyberattaques en France. Mise en oeuvre d'un CyberSecurity Operation Center. Enseignant dans une école de Cybersécurité"
 
-- name: IT Infrastructure
+- name: Infrastructure
   logo: /images/sections/skills/it.png
-  summary: "Design news Infrastructure (virtualization, storage, network, security) on-premise and hybrid."
+  summary: "Définir de nouvelles infrastructures (virtualisation, stockage, réseau, sécurité) on-premise ou hybride."
 
-- name: Pre-Sales
+- name: Avant-vente
   logo: /images/sections/skills/presales.png
-  summary: "Listen to the customers to offer them the best solution in adequacy with the existing while preparing their future"
+  summary: "Prendre en compte l'historique et les besoins des clients pour proposer la meilleure solution en adequation avec leurs besoins futurs."
 
-- name: Stragegy
+- name: Stragegie
   logo: /images/sections/skills/strategy.png
-  summary: "Define the company's strategy to support our clients in their digital transformation "
+  summary: "Accompagner les clients dans le défintion de leur la stratégie de transformation numérique."
 #  url: "https://www.docker.com/"
 
 - name: Management
   logo: /images/sections/skills/management.png
-  summary: "Crisis management, Team management"
+  summary: "Management de crise, management d'équipe"
 

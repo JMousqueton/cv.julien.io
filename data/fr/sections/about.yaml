@@ -18,7 +18,7 @@ company:
 resume: ""
 
 # a summary about you
-summary: 'As a Chief Technology Officer at Computacenter, I’m responsible for the strategy, sales enablement and technical proposition development. I’m running an integrated strategy and engagement with our customers and partners across our service portfolio.'
+summary: 'En tant que directeur technique (CTO) chez Computacenter, je suis responsable de la stratégie, de la promotion des solutions et du développement de la proposition de valeur.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -72,7 +72,7 @@ badges:
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: Travail en équipe
   percentage: 90
   color: yellow
 

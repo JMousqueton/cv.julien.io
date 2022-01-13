@@ -22,53 +22,53 @@ projects:
 - name: Badware 
   logo: /images/sections/projects/badware.png
   role: Creator
-  timeline: "Mars 2021 - Present"
+  timeline: "Mars 2021 - aujourd'hui"
   repo: https://github.com/jmousqueton/badware # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Powershell Ransomware to demonstrate cryptolocking to our customers and how to prevent a cyberattack.
-  tags: ["Professionel", "CyberSecurity"]
+  summary: Ransomware développé en Powershell utilisé dans le cadre de démonstration au Customer Experience Center de Computacenter.
+  tags: ["Professionel", "Cybersécurité"]
 
 - name: Cyber-News Bot 
   logo: /images/sections/projects/cybersec.jpeg
   role: Creator 
-  timeline: "Dec 2021 - Present"
+  timeline: "Dec 2021 - aujourd'hui"
   repo: https://github.com/JMousqueton/Cyber-News-Bot
   #url: ""
-  summary: An Open Source bot for twitter which retweets french tweets related to cybersecurity. 
-  tags: ["Personnel", "CyberSecurity","Twitter"]
+  summary: Robot Open-Source pour la veille technoligque sur le thème de la Cybersécurité. 
+  tags: ["Personnel", "Cybersécurité","Twitter"]
 
 - name: OpenCTI Docker 
   logo: /images/sections/projects/openCTI.png
   role: Creator
-  timeline: "2020 - Present"
+  timeline: "2020 - aujourd'hui"
   repo: https://github.com/JMousqueton/OpenCTI-Docker
-  summary: A Docker-compose file ready to launch an OpenCTI and also several connectors, ready to work.  
-  tags: ["Personnel", "CyberSecurity"]
+  summary: Fichier de configuration pour le déploiement de la stack OpenCTI ainsi que ses principaux connecteurs en containers. Prêt à l'emploi.  
+  tags: ["Personnel", "Cybersécurité"]
 
 - name: Cyber-News 
   logo: /images/sections/projects/cybersec.jpeg
   role: Creator 
-  timeline: "Octobre 2021 - Present"
+  timeline: "Octobre 2021 - aujourd'hui"
   repo: 
   url: "https://www.cyber-news.fr" 
-  summary: Cyber-News is a site similar Reddit, but dedicated on cybersecurity matters. Community can vote and/or comment links.
-  tags: ["Personnel", "CyberSecurity"]
+  summary: Cyber-News est un sute similaire à Reddit, mais dédié autour de la thématique de la Cybersécurité.
+  tags: ["Personnel", "Cybersécurité"]
 
 - name: BOAMP Extractor
   logo: /images/sections/projects/boamp.png
   role: Creator 
-  timeline: "Jan 2022 - Present"
+  timeline: "Jan 2022 - aujourd'hui"
   repo: https://github.com/JMousqueton/boamp-extractor
   # url: https://boamp.mousqueton.io
-  summary: extract and filter call for tenders based on keywords 
+  summary: Publication d'un site web représentant une extraction des appels d'offre du BOAMP basée sur des mots clefs 
   tags: ["Professionel", "Business"]
 
 - name: TrollProd
   logo: /images/sections/projects/Troll.png
   role: Co-Creator
-  timeline: "1997 - Present"
+  timeline: "1997 - aujourd'hui"
   url: https://www.trollprod.org
-  summary: Free Web & mail Hosting servers 
-  tags: ["Personnel", "Hosting"]
+  summary: Hébergeur gratuit de mail et de sites web 
+  tags: ["Personnel", "Hébergement"]
 
 

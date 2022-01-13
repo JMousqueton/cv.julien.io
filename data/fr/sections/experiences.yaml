@@ -15,7 +15,7 @@ experiences:
     url: "https://www.computacenter.com"
     location: Paris, France
     # company overview
-    overview: Computacenter is a British multinational that provides computer services to public- and private-sector customers. 
+    overview: Spécialiste de l'informatique pour les entreprises et premier fournisseur européen de services et de solutions informatiques d'infrastructures.
   positions:
   - designation: Chief Technology Officer 
     start: 2018
@@ -23,20 +23,20 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Definition of Technology offers.
-    - Technology Watch.
-    - Technical Enablement.
-    - Strategy and Design of Responses.
+    - Définition de la stratégie.
+    - Veille technique.
+    - Technical & Sales Enablement.
+    - Strategie et défintion des réponses aux Appels d'Offre.
     - Evangelisation.
-    - Partners Relationship.
+    - Relation partenaires.
 
   - designation: Practice Leader 
     start: 2016
     end: 2018 
     responsibilities:
-    - Develop the strategy for the Line of Business.
-    - Speaker for various IT events and conferences. 
-    - Partners Relationship.
+    - Développement de la stratégie.
+    - Intervenant à différétents évènements du secteur. 
+    - Relation partenaires.
     - Technical & sales enablement.
 
   - designation: Solution Architect
@@ -44,7 +44,7 @@ experiences:
     end: 2016 
     responsibilities:
     - Technical lead.
-    - Pre-Sales Technical Consultant.
+    - Avant vente.
     - Technical enablement.
 
 - company:
@@ -52,66 +52,66 @@ experiences:
     url: "https://www.ecole2600.com"
     location: Saint Qentin, France
     # company overview
-    overview: 2600 is an inclusive school 100% dedicated to cybersecurity. 
+    overview: École de cybersécurité en alternance. 
   positions:
-  - designation: Teacher 
+  - designation: Enseignant 
     start: 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Lessons on Ransomware.
-    - Lessons on IT Infrastructure.
-    - Lessons on Data Protection.
+    - Cours sur les Ransomwares.
+    - Cours sur les Infrastructures IT.
+    - Cours sur la protection des données.
 
 - company:
     name: Groupe AGRICA
     url: "https://www.groupagrica.com"
     location: Paris, France 
-    overview: Group AGRICA is a complementary social protection group dedicated to the agricultural world.
+    overview: Le Groupe AGRICA est un groupe de protection sociale complémentaire consacré au monde agricole.
   positions:
-  - designation: Head of Architects and Engineers
+  - designation: "Responsable de l'Architecture et de l'ingénierie."
     start: 2012
     end: 2015
     responsibilities:
-    - Assessment of systems architecture currently in place and work with technical staff to recommend the improvment solutions.
-    - Team management (2 Architects & 10 Engineers)
-    - Continuous research of current and emerging technologies and advice of changes where needed.
-    - Technical counterpart for the CISO.
+    - Évaluation de l'architecture des systèmes  en place et collaboration avec le personnel technique pour recommander les solutions d'amélioration.
+    - Management d'équipe (2 Architectes & 10 Ingénieurs).
+    - Veille technologique.
+    - Bras droit technique du responsable de la sécurité des systèmes d'information.
 
-  - designation: Solution Architects 
+  - designation: Architecte Solution 
     start: 2007
     end: 2012
     responsibilities:
-    - Define and build the technical infrastructure - Network, Storage, Security and Virtualization.
-    - Implement ITIL process - change and configuration.
-    - Design and deploy a dual Datecenter architecture with continuous protection.
+    - Définition et mise en oeuvre de l'architecture technique - Réseau, Stockage, Sécurité et Virtualisation.
+    - Implémentation des processuers  ITIL  - Gestion des changements et des configurations.
+    - Conception et mise en ouvre d'une architecture en dual datacenter avec une protection continue.
 
 
 - company:
     name: Natexis.
     url: "https://www.natexis.com"
     location: Charenton, France
-    overview: Bank.
+    overview: Natexis est un établissement financier français créé en 2006, filiale du groupe BPCE.
   positions:
-  - designation: Datacenter Architect
+  - designation: Architecte Datacenter 
     start: 2002
     end: 2007
     responsibilities:
-    - Desgin Solution.
-    - Ensuring the security Best Practice.
-    - Answering RFP.
+    - Définition de solutions techniques.
+    - Défintion et application des bonnes pratiques de sécurité.
+    - Réponses aux appels d'offre.
 - company:
     name: CPAM de Paris.
     url: "https://www.cpam75.fr"
     location: Paris, France
-    overview: State Social Security Office 
+    overview: Caisse Primaire d'Assurance Maladie  
   positions:
-  - designation: Security Architect
+  - designation: Architecte Sécurité
     start: 2001
     end: 2002
     responsibilities:
-    - Evolve the Data protection strategy.
-    - Maintain the security level of the company.
-    - Security enablement for the IT Department.
+    - Mise à jour de la politique de sécurité.
+    - Mise en oeuvre de la nouvelle politique de sécurité.
+    - Formation des collaborateurs de la DSI à la sécurité
 
