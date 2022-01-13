@@ -89,7 +89,7 @@ experiences:
 
 
 - company:
-    name: Natexis.
+    name: Natexis
     url: "https://www.natexis.com"
     location: Charenton, France
     overview: Natexis est un établissement financier français créé en 2006, filiale du groupe BPCE.
@@ -102,7 +102,7 @@ experiences:
     - Défintion et application des bonnes pratiques de sécurité.
     - Réponses aux appels d'offre.
 - company:
-    name: CPAM de Paris.
+    name: CPAM de Paris
     url: "https://www.cpam75.fr"
     location: Paris, France
     overview: Caisse Primaire d'Assurance Maladie  
