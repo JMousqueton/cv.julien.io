@@ -43,7 +43,7 @@ projects:
   timeline: "2020 - Present"
   repo: https://github.com/JMousqueton/OpenCTI-Docker
   summary: A Docker-compose file ready to launch OpenCTI and several connectors, ready to work.  
-  tags: ["Personnal", "Cyber Security"]
+  tags: ["Professional", "Cyber Security"]
 
 - name: Cyber-News 
   logo: /images/sections/projects/cybersec.jpeg

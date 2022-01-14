@@ -43,7 +43,7 @@ projects:
   timeline: "2020 - aujourd'hui"
   repo: https://github.com/JMousqueton/OpenCTI-Docker
   summary: Fichier de configuration pour le déploiement de la stack OpenCTI ainsi que ses principaux connecteurs en containers. Prêt à l'emploi.  
-  tags: ["Personnel", "Cybersécurité"]
+  tags: ["Professionel", "Cybersécurité"]
 
 - name: Cyber-News 
   logo: /images/sections/projects/cybersec.jpeg
