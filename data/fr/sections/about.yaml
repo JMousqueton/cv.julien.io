@@ -64,7 +64,7 @@ badges:
 - type: certification
   name: Veeam Vanguard
   url: ""
-  badge: "http://www.virtual-it.pl/news_logo_stale/veeam-vanguard-18.jpg"
+  badge: "https://www.virtual-it.pl/news_logo_stale/veeam-vanguard-18.jpg"
 
 - type: soft-skill-indicator
   name: Leadership
