@@ -54,7 +54,7 @@ badges:
 - type: certification
   name: VMware vExpert
   url: ""
-  badge: "https://myvmworld.fr/wp-content/uploads/2021/03/vExpert2021.png"
+  badge: /images/vexpert-security-2022-badge.png"
 
 - type: certification
   name: Cisco Champion
