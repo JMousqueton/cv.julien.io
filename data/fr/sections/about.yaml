@@ -54,7 +54,7 @@ badges:
 - type: certification
   name: VMware vExpert
   url: ""
-  badge: /images/vexpert-security-2022-badge.png"
+  badge: "/images/vexpert-security-2022-badge.png"
 
 - type: certification
   name: Cisco Champion
