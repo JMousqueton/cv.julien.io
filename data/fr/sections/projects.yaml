@@ -68,7 +68,7 @@ projects:
   role: Creator
   timeline: "2022 - aujourd'hui"
   url: https://cve-monitor.mousqueton.io
-  summary: Recherche les PoC  disponibles sur Github concernant des CVE  
+  summary: Recherche de PoC disponibles sur Github en relation avec des CVE  
   tags: ["Profesionnel", "Cybersécurité"]
 
 - name: TrollProd
