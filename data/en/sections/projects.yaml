@@ -52,7 +52,7 @@ projects:
   repo: 
   url: "https://www.cyber-news.fr" 
   summary: Cyber-News is a site similar to Reddit but only dedicated on cybersecurity topics.
-  tags: ["Personnal", "Cyber Security"]
+  tags: ["Personnal", "Professional", "Cyber Security"]
 
 - name: BOAMP Extractor
   logo: /images/sections/projects/boamp.png
@@ -62,6 +62,14 @@ projects:
   # url: https://boamp.mousqueton.io
   summary: extract and filter call for tenders based on keywords published on BOAMP
   tags: ["Professional", "Business"]
+  
+- name: Github CVE Monitor
+  logo: /images/sections/projects/cybersec.jpeg
+  role: Creator
+  timeline: "2022 - Present"
+  url: https://cve-monitor.mousqueton.io
+  summary: Detect CVE PoC available on Github  
+  tags: ["Profesional", "Cyber Security"]
 
 - name: TrollProd
   logo: /images/sections/projects/Troll.png
