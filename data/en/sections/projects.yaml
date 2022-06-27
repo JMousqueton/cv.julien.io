@@ -95,7 +95,7 @@ projects:
   summary: A daily updated summary of the most frequent types of security incidents currently being reported from different sources using Github action.
   tags: ["Profesional", "Cyber Security"]
 
-  - name: Curriculum Vitae
+- name: Curriculum Vitae
   logo: /images/author/julien.jpg
   role: Creator
   timeline: "Juin 2020 - aujourd'hui"
