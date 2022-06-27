@@ -86,3 +86,11 @@ projects:
   url: https://ransomwatch.mousqueton.io
   summary: Ransomware indexer & aggregator
   tags: ["Profesional", "Cyber Security"]
+
+- name: CyberOwl
+  logo: /images/sections/projects/cyberowl.png
+  role: Contributor
+  timeline: "2022 - aujourd'hui"
+  url: https://cyberowl.mousqueton.io
+  summary: A daily updated summary of the most frequent types of security incidents currently being reported from different sources using Github action.
+  tags: ["Profesional", "Cyber Security"]
