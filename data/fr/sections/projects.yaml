@@ -87,4 +87,11 @@ projects:
   summary: Indexe les attaques par ransomware 
   tags: ["Profesionnel", "Cybersécurité"]
 
+- name: CyberOwl
+  logo: /images/sections/projects/cyberowl.png
+  role: Contributor
+  timeline: "2022 - aujourd'hui"
+  url: https://cyberowl.mousqueton.io
+  summary: Un résumé quotidiennement des d'incidents de sécurité signalés par différentes sources généré en utilisant Github Action.
+  tags: ["Profesional", "Cyber Security"]
 
