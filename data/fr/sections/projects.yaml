@@ -51,7 +51,7 @@ projects:
   timeline: "Octobre 2021 - aujourd'hui"
   repo: 
   url: "https://www.cyber-news.fr" 
-  summary: Cyber-News est un sute similaire à Reddit, mais dédié autour de la thématique de la Cybersécurité.
+  summary: Cyber-News est un site dans l'idée de Reddit, mais dédié uniquement à la Cybersécurité.
   tags: ["Personnel", "Profesionnel", "Cybersécurité"]
 
 - name: BOAMP Extractor
@@ -94,4 +94,12 @@ projects:
   url: https://cyberowl.mousqueton.io
   summary: Un résumé quotidiennement des d'incidents de sécurité signalés par différentes sources généré en utilisant Github Action.
   tags: ["Profesionnel", "Cyber Security"]
+
+  - name: Curriculum Vitae
+  logo: /images/author/julien.jpg
+  role: Créateur
+  timeline: "Juin 2020 - aujourd'hui"
+  repo: https://github.com/JMousqueton/cv.julien.io
+  summary: Mon Curriculum Vitae en ligne généré par Github Action et hébergé par Github 
+  tags: ["Profesionnel"]
 
