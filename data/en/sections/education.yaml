@@ -11,11 +11,11 @@ section:
 
 degrees:
 - name: B.Sc. in Computer Science (Security option)
-  icon: fa-graduation-cap
+  icon: fa-university
   timeframe: 1998-1999
   institution:
     name: Teesside University
-    url: "#"
+    url: "https://www.tees.ac.uk/"
   extracurricularActivities: #(optional)
   - Rugby League
 #  grade: #(optional)
@@ -34,7 +34,7 @@ degrees:
   timeframe: 1996 - 1998
   institution:
     name: Technology Institut Leonard de Vinci
-    url: "#"
+    url: "https://www.iut-rcc.fr/"
   #grade: #(optional)
   #  scale: CGPA
   #  achieved: 3.5
@@ -67,11 +67,11 @@ degrees:
 #  - Duis sed massa feugiat, ornare justo et, aliquam est.
 #  - Pellentesque ut fringilla magna.
 - name: Bachelor's degree in Mathematics
-  icon: fa-university
+  icon: fa-school
   timeframe: 1996
   institution:
     name: Lycée Clemenceau
-    url: "#"
+    url: "https://lyc-clemenceau.monbureaunumerique.fr/"
 #  grade: #(optional)
 #    scale: GPA
 #    achieved: 5
