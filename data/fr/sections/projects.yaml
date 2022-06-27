@@ -59,7 +59,7 @@ projects:
   role: Créateur 
   timeline: "Jan 2022 - aujourd'hui"
   repo: https://github.com/JMousqueton/boamp-extractor
-  # url: https://boamp.mousqueton.io
+  url: https://boamp.mousqueton.io
   summary: Publication d'un site web représentant une extraction des appels d'offre du BOAMP basée sur des mots clefs 
   tags: ["Professionel", "Business"]
   
@@ -93,5 +93,5 @@ projects:
   timeline: "2022 - aujourd'hui"
   url: https://cyberowl.mousqueton.io
   summary: Un résumé quotidiennement des d'incidents de sécurité signalés par différentes sources généré en utilisant Github Action.
-  tags: ["Profesional", "Cyber Security"]
+  tags: ["Profesionnel", "Cyber Security"]
 
