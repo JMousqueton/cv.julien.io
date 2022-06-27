@@ -10,7 +10,7 @@ section:
 
 # filter buttons
 buttons:
-- name: All
+- name: Tous
   filter: "all"
 - name: Professionel
   filter: "Professionel"
