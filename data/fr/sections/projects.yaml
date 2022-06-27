@@ -95,7 +95,7 @@ projects:
   summary: Un résumé quotidiennement des d'incidents de sécurité signalés par différentes sources généré en utilisant Github Action.
   tags: ["Profesionnel", "Cyber Security"]
 
-  - name: Curriculum Vitae
+- name: Curriculum Vitae
   logo: /images/author/julien.jpg
   role: Créateur
   timeline: "Juin 2020 - aujourd'hui"
