@@ -34,7 +34,7 @@ projects:
   timeline: "Dec 2021 - aujourd'hui"
   repo: https://github.com/JMousqueton/Cyber-News-Bot
   #url: ""
-  summary: Robot Open-Source pour la veille technoligque sur le thème de la Cybersécurité. 
+  summary: Robot Open-Source pour la veille technologique sur le thème de la Cybersécurité. 
   tags: ["Personnel", "Cybersécurité","Twitter"]
 
 - name: OpenCTI Docker 
