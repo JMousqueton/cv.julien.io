@@ -115,4 +115,19 @@ experiences:
     - Mise à jour de la politique de sécurité.
     - Mise en oeuvre de la nouvelle politique de sécurité.
     - Formation des collaborateurs de la DSI à la sécurité
-
+- company:
+    name: DIA
+    url: "https://www.open.global/fr"
+    location: Montrouger, France
+    overview: SSII parisienne employant 160 personnes et bien positionnée auprès de grands comptes du monde financier  
+  positions:
+  - designation: Ingénieur Sécurité chez Caisse Centrale des Banques Populaires 
+    start: 2000
+    end: 2001
+    responsibilities:
+    - Mise en oeuvre des échanges bancaires sécurisés
+  - designation: Ingénieur Système chez Caisse Centrale des Banques Populaires 
+    start: 1999
+    end: 2000
+    responsibilities:
+    - Administrateur de la plateforme de flux boursier 
