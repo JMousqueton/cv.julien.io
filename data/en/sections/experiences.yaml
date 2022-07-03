@@ -115,4 +115,19 @@ experiences:
     - Evolve the Data protection strategy.
     - Maintain the security level of the company.
     - Security enablement for the IT Department.
-
+- company:
+    name: DIA
+    url: "https://www.open.global/fr"
+    location: Montrouge, France
+    overview: IT Services company focusing on finanical sector  
+  positions:
+  - designation: Security Engineer at Caisse Centrale des Banques Populaires (bank 🏦)
+    start: 2000
+    end: 2001
+    responsibilities:
+    - Implementation of secure banking exchanges
+  - designation: System Engineer at Caisse Centrale des Banques Populaires (bank 🏦)
+    start: 1999
+    end: 2000
+    responsibilities:
+    - Administrator of the stock flow platform 
