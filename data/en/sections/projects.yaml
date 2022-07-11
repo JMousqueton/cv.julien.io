@@ -87,6 +87,14 @@ projects:
   summary: Ransomware indexer & aggregator
   tags: ["Profesional", "Cyber Security"]
 
+- name: Ransomposts
+  logo: /images/sections/projects/ransomwatch.png
+  role: Contributor
+  timeline: "July 2022 - Present"
+  url: https://ransomposts.mousqueton.io
+  summary: Based on data from Ransomwatch, Ransomposts display Ransomware Group posts
+  tags: ["Profesional", "Cyber Security"]
+
 - name: CyberOwl
   logo: /images/sections/projects/cyberowl.png
   role: Contributor

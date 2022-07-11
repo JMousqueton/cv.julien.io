@@ -87,6 +87,14 @@ projects:
   summary: Indexe les attaques par ransomware 
   tags: ["Professionel", "Cybersécurité"]
 
+  - name: Ransomposts
+  logo: /images/sections/projects/ransomwatch.png
+  role: Contributeur
+  timeline: "Juillet 2022 - aujourd'hui"
+  url: https://ransomposts.mousqueton.io
+  summary: Basé sur les données de Ransomwatch, Ransomposts affiche les messages des groupes de Ransomware 
+  tags: ["Professionel", "Cybersécurité"]
+
 - name: CyberOwl
   logo: /images/sections/projects/cyberowl.png
   role: Contributor
