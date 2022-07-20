@@ -87,7 +87,7 @@ projects:
   summary: Indexation des attaques par ransomware 
   tags: ["Professionel", "Cybersécurité"]
 
-  - name: Ransomposts
+- name: Ransomposts
   logo: /images/sections/projects/ransomwatch.png
   role: Contributeur
   timeline: "Juillet 2022 - aujourd'hui"
