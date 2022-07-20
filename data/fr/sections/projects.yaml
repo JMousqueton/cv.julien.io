@@ -84,7 +84,7 @@ projects:
   role: Contributeur
   timeline: "Janvier 2022 - aujourd'hui"
   url: https://ransomwatch.mousqueton.io
-  summary: Indexe les attaques par ransomware 
+  summary: Indexation des attaques par ransomware 
   tags: ["Professionel", "Cybersécurité"]
 
   - name: Ransomposts
