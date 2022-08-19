@@ -97,7 +97,7 @@ projects:
 
 - name: CyberOwl
   logo: /images/sections/projects/cyberowl.png
-  role: Contributor
+  role: Contributeur
   timeline: "Juin 2022 - aujourd'hui"
   url: https://cyberowl.mousqueton.io
   summary: Un résumé quotidiennement des d'incidents de sécurité signalés par différentes sources généré en utilisant Github Action.
@@ -111,3 +111,10 @@ projects:
   summary: Mon Curriculum Vitae en ligne généré par Github Action et hébergé par Github 
   tags: ["Personnel"]
 
+- name: Threat Intelligence Bot pour MS-Teams
+  logo: /images/sections/projects/ctibot.png
+  role: Créateur
+  timeline: "Août 2022 - aujourd'hui"
+  repo: https://github.com/JMousqueton/CTI-MSTeams-Bot
+  summary: Robot qui informe dans un canal Microsoft Teams des dernières nouvelles du monde de la Cyber Sécurité en utilisant Github Action. Très utile pour faire de la Threat Intelligence.
+  tags: ["Professionel", "Cyber Security"]
