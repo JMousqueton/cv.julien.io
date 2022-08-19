@@ -69,7 +69,7 @@ projects:
   timeline: "2022 - Present"
   url: https://cve-monitor.mousqueton.io
   summary: Detect CVE PoC available on Github  
-  tags: ["Profesional", "Cyber Security"]
+  tags: ["Professional", "Cyber Security"]
 
 - name: TrollProd
   logo: /images/sections/projects/Troll.png
@@ -85,7 +85,7 @@ projects:
   timeline: "January 2022 - Present"
   url: https://ransomwatch.mousqueton.io
   summary: Ransomware indexer & aggregator
-  tags: ["Profesional", "Cyber Security"]
+  tags: ["Professional", "Cyber Security"]
 
 - name: Ransomposts
   logo: /images/sections/projects/ransomwatch.png
@@ -93,7 +93,7 @@ projects:
   timeline: "July 2022 - Present"
   url: https://ransomposts.mousqueton.io
   summary: Based on data from Ransomwatch, Ransomposts display Ransomware Group posts
-  tags: ["Profesional", "Cyber Security"]
+  tags: ["Professional", "Cyber Security"]
 
 - name: CyberOwl
   logo: /images/sections/projects/cyberowl.png
@@ -101,7 +101,7 @@ projects:
   timeline: "June 2022 - Present"
   url: https://cyberowl.mousqueton.io
   summary: A daily updated summary of the most frequent types of security incidents currently being reported from different sources using Github action.
-  tags: ["Profesional", "Cyber Security"]
+  tags: ["Professional", "Cyber Security"]
 
 - name: Curriculum Vitae
   logo: /images/author/julien.jpg
@@ -117,4 +117,4 @@ projects:
   timeline: "August 2022 - Present"
   repo: https://github.com/JMousqueton/CTI-MSTeams-Bot
   summary: Bot to keep inform of Cyber Security threats. Notify on a Microsoft Teams channel using Github Action.
-  tags: ["Profesional", "Cyber Security"]
+  tags: ["Professional", "Cyber Security"]
