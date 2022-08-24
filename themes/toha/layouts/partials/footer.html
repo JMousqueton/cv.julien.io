@@ -26,7 +26,7 @@
     {{ $sections = (index site.Data site.Language.Lang).sections }}
   {{ end }}
 
-  {{ $copyrightNotice := "© 2021 Copyright."}}
+  {{ $copyrightNotice := "© 2022 Copyright."}}
   {{ if (index site.Data site.Language.Lang).site }}
     {{ $siteConfig := (index site.Data site.Language.Lang).site }}
     {{ if $siteConfig.copyright }}
@@ -99,6 +99,10 @@
               {{ else if (eq $key "github") }}
                 <li><a href={{ printf "https://github.com/%s" $value }} target="_blank" rel="noopener">
                   <span><i class="fab fa-github"></i></span> <span>{{ $value }}</span>
+                </a></li>
+              {{ else if (eq $key "twitter") }}
+                <li><a href={{ printf "https://twitter.com/%s" $value }} target="_blank" rel="noopener">
+                  <span><i class="fab fa-twitter"></i></span> <span>{{ $value }}</span>
                 </a></li>
               {{ else }}
                 <li><span>{{ title $key }}: </span> <span>{{ $value }}</span></li>
