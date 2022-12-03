@@ -67,6 +67,19 @@ experiences:
     - Cours sur la protection des données.
 
 - company:
+    name: French Tech Corporate Community
+    url: "https://www.linkedin.com/company/frenchtechcorporatecommunity/"
+    location: Paris, France
+    # company overview
+    overview: Anciennement mission numérique des grands groupes. 
+  positions:
+  - designation: Membre du board et responsable du chantier Cybersécurité 
+    start: 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+
+- company:
     name: Groupe AGRICA
     url: "https://www.groupagrica.com"
     location: Paris, France 
