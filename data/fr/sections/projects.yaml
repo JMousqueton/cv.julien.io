@@ -79,11 +79,11 @@ projects:
   summary: Hébergeur gratuit de mail et de sites web 
   tags: ["Personnel", "Hébergement"]
 
-- name: Ransomwatch
+- name: Ransomware.live
   logo: /images/sections/projects/ransomwatch.png
   role: Contributeur
   timeline: "Janvier 2022 - aujourd'hui"
-  url: https://ransomwatch.mousqueton.io
+  url: https://ransomware.live
   summary: Indexation des attaques par ransomware 
   tags: ["Professionel", "Cybersécurité"]
 
@@ -91,8 +91,8 @@ projects:
   logo: /images/sections/projects/ransomwatch.png
   role: Contributeur
   timeline: "Juillet 2022 - aujourd'hui"
-  url: https://ransomposts.mousqueton.io
-  summary: Basé sur les données de Ransomwatch, Ransomposts affiche les messages des groupes de Ransomware 
+  url: https://posts.ransomware.live
+  summary: Basé sur les données de Ransomware.live, Ransomposts affiche les messages des groupes de Ransomware 
   tags: ["Professionel", "Cybersécurité"]
 
 - name: CyberOwl

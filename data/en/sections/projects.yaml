@@ -79,11 +79,11 @@ projects:
   summary: Free Web & mail Hosting servers 
   tags: ["Personnal", "Hosting"]
 
-- name: Ransomwatch
+- name: Ransomware.live
   logo: /images/sections/projects/ransomwatch.png
   role: Contributor
   timeline: "January 2022 - Present"
-  url: https://ransomwatch.mousqueton.io
+  url: https://ransomware.live
   summary: Ransomware indexer & aggregator
   tags: ["Professional", "Cyber Security"]
 
@@ -91,8 +91,8 @@ projects:
   logo: /images/sections/projects/ransomwatch.png
   role: Contributor
   timeline: "July 2022 - Present"
-  url: https://ransomposts.mousqueton.io
-  summary: Based on data from Ransomwatch, Ransomposts display Ransomware Group posts
+  url: https://posts.ransomware.live
+  summary: Based on data from Ransomware.live, Ransomposts display Ransomware Group posts
   tags: ["Professional", "Cyber Security"]
 
 - name: CyberOwl
