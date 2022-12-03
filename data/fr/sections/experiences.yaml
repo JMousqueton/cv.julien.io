@@ -73,11 +73,13 @@ experiences:
     # company overview
     overview: Anciennement mission numérique des grands groupes. 
   positions:
-  - designation: Membre du board et responsable du chantier Cybersécurité 
+  - designation: Membre du board
     start: 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Responsable du chantier Cybersécurité.
 
 - company:
     name: Groupe AGRICA
