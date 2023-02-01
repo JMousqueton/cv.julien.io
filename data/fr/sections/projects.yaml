@@ -19,6 +19,15 @@ buttons:
 
 # your projects
 projects:
+
+- name: Ransomware.live
+  logo: /images/sections/projects/ransomwatch.png
+  role: Contributeur
+  timeline: "Janvier 2022 - aujourd'hui"
+  url: https://ransomware.live
+  summary: Indexation des attaques par ransomware 
+  tags: ["Professionel", "Cybersécurité"]
+
 - name: Badware 
   logo: /images/sections/projects/badware.png
   role: Créateur 
@@ -27,6 +36,14 @@ projects:
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Ransomware développé en Powershell utilisé dans le cadre de démonstration au Customer Experience Center de Computacenter.
   tags: ["Professionel", "Cybersécurité"]
+
+- name: Threat Intelligence Bot pour MS-Teams
+  logo: /images/sections/projects/ctibot.png
+  role: Créateur
+  timeline: "Août 2022 - aujourd'hui"
+  repo: https://github.com/JMousqueton/CTI-MSTeams-Bot
+  summary: Robot qui informe dans un canal Microsoft Teams des dernières nouvelles du monde de la Cyber Sécurité en utilisant Github Action. Très utile pour faire de la Threat Intelligence.
+  tags: ["Professionel", "Cyber Security"]
 
 - name: Cyber-News Bot 
   logo: /images/sections/projects/cybersec.jpeg
@@ -79,14 +96,6 @@ projects:
   summary: Hébergeur gratuit de mail et de sites web 
   tags: ["Personnel", "Hébergement"]
 
-- name: Ransomware.live
-  logo: /images/sections/projects/ransomwatch.png
-  role: Contributeur
-  timeline: "Janvier 2022 - aujourd'hui"
-  url: https://ransomware.live
-  summary: Indexation des attaques par ransomware 
-  tags: ["Professionel", "Cybersécurité"]
-
 - name: Ransomposts
   logo: /images/sections/projects/ransomwatch.png
   role: Contributeur
@@ -110,11 +119,3 @@ projects:
   repo: https://github.com/JMousqueton/cv.julien.io
   summary: Mon Curriculum Vitae en ligne généré par Github Action et hébergé par Github 
   tags: ["Personnel"]
-
-- name: Threat Intelligence Bot pour MS-Teams
-  logo: /images/sections/projects/ctibot.png
-  role: Créateur
-  timeline: "Août 2022 - aujourd'hui"
-  repo: https://github.com/JMousqueton/CTI-MSTeams-Bot
-  summary: Robot qui informe dans un canal Microsoft Teams des dernières nouvelles du monde de la Cyber Sécurité en utilisant Github Action. Très utile pour faire de la Threat Intelligence.
-  tags: ["Professionel", "Cyber Security"]
