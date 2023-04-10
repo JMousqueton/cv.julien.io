@@ -59,7 +59,7 @@ badges:
 - type: certification
   name: Cisco Champion
   url: ""
-  badge: "https://images.credly.com/size/680x680/images/171686bc-1348-40ba-920e-40a3989035d7/Cisco_Champion_600x600px.png"
+  badge: "/images/ciscochampion.jpg"
 
 - type: certification
   name: Veeam Vanguard
