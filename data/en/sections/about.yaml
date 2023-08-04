@@ -64,7 +64,7 @@ badges:
 - type: certification
   name: Veeam Vanguard
   url: ""
-  badge: "images/vanguard.png"
+  badge: "/images/vanguard.png"
 
 - type: certification
   name: (ISC)2 Cyber Security 2023
