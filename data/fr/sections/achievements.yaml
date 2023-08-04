@@ -3,7 +3,7 @@ section:
   name: Certifications
   id: achievements
   enable: true
-#  weight: 8
+  weight: 8
   showOnNavbar: true
 #  # Can optionally hide the title in sections
 #  # hideTitle: true
@@ -11,10 +11,10 @@ section:
 ## Your achievements achievements
 achievements:
 - title: (ISC)2 Cyber Security 2023
-  image: https://images.credly.com/size/340x340/images/4d894b46-a6c9-430f-bad4-75ccb7288bf9/image.png
+  image: /images/isccs2023.png
   summary: The vendor-neutral CC credential starts newcomers on their path to advanced cybersecurity certifications and future leadership roles. It proves to organizations that newly certified team members understand fundamental security principles and operations, network security and access controls and that they have the skills to meet and exceed performance standards in their beginning roles. All this allows organizations to build a stronger line of defense.
 - title: Palo Alto Networks Systems Engineer (PSE)
-  image: https://images.credly.com/size/340x340/images/925b1fc2-dfe7-4dda-acb7-09e3b4fce2a5/image.png
+  image: /images/pse.png
   summary: PSE Strata Associate certified individual has successfully completed the specialized learning path and passed the written exam to verify they possess the necessary knowledge, skills, and abilities required to demonstrate knowledge in the competitive features and functions of Palo Alto Networks Next-Generation firewalls, execute an evaluation of Palo Alto Networks firewalls, and present a Security Lifecycle Review (SLR) report.
 #- title: Graduation
 #  image: /images/sections/achievements/graduation-cap.jpg
