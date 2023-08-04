@@ -1,6 +1,7 @@
 {{/*  variables for enabling/disabling parts of the footer  */}}
 {{ $footerEnabled      := site.Params.footer.enable             | default true }}
 {{ $navigationEnabled  := site.Params.footer.navigation.enable  | default true }}
+{{ $customMenusEnabled := site.Params.footer.navigation.customMenus | default true }}
 {{ $contactMeEnabled   := site.Params.footer.contactMe.enable   | default true }}
 {{ $newsletterEnabled  := site.Params.footer.newsletter.enable  | default true }}
 {{ $credentialsEnabled := site.Params.footer.credentials.enable | default true }}
@@ -26,7 +27,12 @@
     {{ $sections = (index site.Data site.Language.Lang).sections }}
   {{ end }}
 
-  {{ $copyrightNotice := "© 2022 Copyright."}}
+  {{ $customMenus := site.Params.customMenus }}
+  {{ if (index site.Data site.Language.Lang).site.customMenus }}
+    {{ $customMenus = (index site.Data site.Language.Lang).site.customMenus }}
+  {{ end }}
+
+  {{ $copyrightNotice := now.Format "2006" | printf "© %s Copyright."}}
   {{ if (index site.Data site.Language.Lang).site }}
     {{ $siteConfig := (index site.Data site.Language.Lang).site }}
     {{ if $siteConfig.copyright }}
@@ -58,7 +64,7 @@
   {{ end }}
   {{ $hugoLogo = $hugoLogo.RelPermalink}}
 
-  <footer class="container-fluid text-center align-content-center footer pb-2">
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
     <div class="container pt-5">
       <div class="row text-left">
         {{ if $navigationEnabled }}
@@ -77,6 +83,15 @@
                 </li>
               {{ end }}
             {{- end }}
+            {{ if $customMenusEnabled }}
+              {{ range $customMenus }}
+                {{ if .showOnFooter }}
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="{{ .url }}">{{ .name }}</a>
+                    </li>
+                {{ end }}
+              {{ end }}
+            {{ end }}
           </ul>
           {{ end }}
         </div>
@@ -100,10 +115,20 @@
                 <li><a href={{ printf "https://github.com/%s" $value }} target="_blank" rel="noopener">
                   <span><i class="fab fa-github"></i></span> <span>{{ $value }}</span>
                 </a></li>
-              {{ else if (eq $key "twitter") }}
-                <li><a href={{ printf "https://twitter.com/%s" $value }} target="_blank" rel="noopener">
-                  <span><i class="fab fa-twitter"></i></span> <span>{{ $value }}</span>
-                </a></li>
+              {{ else if reflect.IsMap $value }}
+                <li>
+                  {{ if (and (isset $value "url") (isset $value "icon"))}}
+                  <a href={{ $value.url }} target="_blank" rel="noopener">
+                    <span><i class={{ printf "fab fa-%s" $value.icon }}></i></span> <span>{{ $value.text }}</span>
+                  </a>
+                  {{ else if isset $value "icon" }}
+                    <span><i class={{ printf "fab fa-%s" $value.icon }}></i></span> <span>{{ $value.text }}</span>
+                  {{ else }}
+                    <a href={{ $value.url }} target="_blank" rel="noopener">
+                      <span>{{ title $key }}: </span> <span>{{ $value.text }}</span>
+                    </a>
+                  {{ end }}
+                </li>
               {{ else }}
                 <li><span>{{ title $key }}: </span> <span>{{ $value }}</span></li>
               {{ end }}
@@ -148,6 +173,7 @@
               <input type='hidden' name='schedule_type' value='1' />
               <small id="emailHelp" class="form-text text-muted">{{ i18n "newsletter_warning" }}</small>
               <button type="submit" class="btn btn-info"> {{ i18n "submit" }} </button>
+              </div>
               </form>
             {{ end }}
           </div>
@@ -165,7 +191,7 @@
     <div class="container">
       <div class="row text-left">
         <div class="col-md-4">
-          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
             <img src="{{ $themeLogo }}" alt="Toha Theme Logo">
             Toha
           </a>

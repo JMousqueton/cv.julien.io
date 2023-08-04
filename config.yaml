@@ -29,10 +29,11 @@ markup:
 
 # At least HTML and JSON are required for the main HTML content and
 # client-side JavaScript search
-
-
-# Enable Google Analytics
-googleAnalytics: 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 # Enable global emoji support
 enableEmoji: true
@@ -54,8 +55,26 @@ params:
   # Default branch of your Git repo
   gitBranch: main
 
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 5
+
   # Configure various features of this theme
   features:
+
+    # Enable dark theme
+    darkMode:
+      enable: false
+      services:
+        darkreader:
+          defaultColorScheme: system # options are 'system', 'dark', 'light'
+          fixes:
+            invert: ['img[src$=".svg"]'] # inverts svg colors.
+          theme:
+            brightness: 100
+            contrast: 100
+            sepia: 0
+
     # Enable and configure portfolio
     portfolio:
       enable: false
@@ -96,6 +115,28 @@ params:
       #   repo: github.com/hugo-toha/hugo-toha.github.io
       #   issueTerm: title
       #   theme: github-light
+  
+
+    # Enable Analytics
+    analytics:
+      enabled: true
+      services:
+        # cloudflare web analytics
+        # cloudflare:
+        #   token: "<token>"
+        # Google Analytics
+        #google:
+        #  id: G-H4LBG7NDFZ
+        # # CounterDev
+        # counterDev:
+        #   id: <your counterdev id>
+        # # GoatCounter
+        # goatCounter:
+        #   code: <your goat counter code>
+        # # Matomo / Piwik
+        matomo:
+          instance: stats.mousqueton.io
+          siteId: 12 # Or any other number
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: false

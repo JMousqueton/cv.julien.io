@@ -6,11 +6,20 @@
 <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relURL }}"/>
 <link rel="stylesheet" href="{{ "/css/layouts/main.css" | relURL }}"/>
 <link rel="stylesheet" href="{{ "/css/navigators/navbar.css" | relURL }}"/>
+<link rel="stylesheet" href="{{ "/css/plyr.css" | relURL }}"/>
+{{ if ne site.Params.showFlags false }}
 <link rel="stylesheet" href="{{ "/css/flag-icon.min.css" | relURL }}"/>
+{{ end }}
+<!--=================== fonts ==============================-->
+<link rel="stylesheet" href="{{ "/google-fonts/Mulish/mulish.css" | relURL }}"/>
 
-<!--=================== cdn ==============================-->
-<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+<!--=================== icons ==============================-->
+<link rel="stylesheet" href="{{ "/fontawesome/css/all.min.css" | relURL }}"/>
+
+<!--=================== dark mode ==========================-->
+{{ if site.Params.darkMode.enable }}
+<link rel="stylesheet" href="{{ "/css/colortheme/colortheme.css" | relURL }}"/>
+{{ end }}
 
 <!--================= fab-icon =========================-->
 {{/* add favicon only if the site author has provided the the favicon */}}
@@ -24,20 +33,5 @@
   {{ end }}
   {{ $favicon = $favicon.RelPermalink}}
 
-  <link rel="icon" type="image/png" href="{{ $favicon }}" />  
+  <link rel="icon" type="image/png" href="{{ $favicon }}" />
 {{end}}
-<!-- Matomo -->
-<script>
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://stats.mousqueton.io/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '12']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
