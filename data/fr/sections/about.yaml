@@ -68,15 +68,17 @@ badges:
 - type: certification
   name: Veeam Vanguard
   url: ""
-  badge: "https://www.virtual-it.pl/news_logo_stale/veeam-vanguard-18.jpg"
+  badge: "images/vanguard.png"
 
 - type: certification
   name: (ISC)2 Cyber Security 2023
-  badge: /images/isccs2023.png
+  url: ""
+  badge: "/images/isccs2023.png"
 
 - type: certification
   name: Palo Alto Networks Systems Engineer (PSE)
-  badge: /images/pse.png
+  url: ""
+  badge: "/images/pse.png"
 
 - type: soft-skill-indicator
   name: Leadership
