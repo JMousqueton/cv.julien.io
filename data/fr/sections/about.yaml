@@ -70,15 +70,15 @@ badges:
   url: ""
   badge: "/images/vanguard.png"
 
-- type: certification
-  name: (ISC)2 Cyber Security 2023
-  url: ""
-  badge: "/images/isccs2023.png"
+#- type: certification
+#  name: (ISC)2 Cyber Security 2023
+#  url: ""
+#  badge: "/images/isccs2023.png"
 
-- type: certification
-  name: Palo Alto Networks Systems Engineer (PSE)
-  url: ""
-  badge: "/images/pse.png"
+#- type: certification
+#  name: Palo Alto Networks Systems Engineer (PSE)
+#  url: ""
+#  badge: "/images/pse.png"
 
 - type: soft-skill-indicator
   name: Leadership
