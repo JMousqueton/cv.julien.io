@@ -2,12 +2,12 @@
 section:
   name: Certifications
   id: achievements
-  enable: true
-  weight: 0
-  showOnNavbar: true
+  enable: false
+  weight: 9
+  showOnNavbar: false
 #  # Can optionally hide the title in sections
 #  # hideTitle: true
-#
+
 ## Your achievements achievements
 achievements:
 - title: (ISC)2 Cyber Security 2023
@@ -16,9 +16,3 @@ achievements:
 - title: Palo Alto Networks Systems Engineer (PSE)
   image: /images/pse.png
   summary: PSE Strata Associate certified individual has successfully completed the specialized learning path and passed the written exam to verify they possess the necessary knowledge, skills, and abilities required to demonstrate knowledge in the competitive features and functions of Palo Alto Networks Next-Generation firewalls, execute an evaluation of Palo Alto Networks firewalls, and present a Security Lifecycle Review (SLR) report.
-#- title: Graduation
-#  image: /images/sections/achievements/graduation-cap.jpg
-#  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-#- title: Award Winner
-#  image: /images/sections/achievements/woman-winner.jpg
-#  summary: Wined best paper award at IEE Conference 2020.

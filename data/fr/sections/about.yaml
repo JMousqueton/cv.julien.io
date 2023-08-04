@@ -70,6 +70,14 @@ badges:
   url: ""
   badge: "https://www.virtual-it.pl/news_logo_stale/veeam-vanguard-18.jpg"
 
+- type: certification
+  name: (ISC)2 Cyber Security 2023
+  badge: /images/isccs2023.png
+
+- type: certification
+  name: Palo Alto Networks Systems Engineer (PSE)
+  badge: /images/pse.png
+
 - type: soft-skill-indicator
   name: Leadership
   percentage: 85
