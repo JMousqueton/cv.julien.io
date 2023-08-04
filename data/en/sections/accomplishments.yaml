@@ -1,20 +1,27 @@
 ## section information
-#section:
-#  name: Certifications
-#  id: accomplishments
-#  enable: true
-#  weight: 7
-#  showOnNavbar: true
-#  # Can optionally hide the title in sections
-#  # hideTitle: true
+section:
+  name: Certifications
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
 
 
-## Your accomplishments
-#accomplishments:
-#- name: Linux Foundation System Administrator
-#  timeline: "March 2018 - March 2019"
-#  organization:
-#    name: Linux Foundation
-#    url: https://www.linuxfoundation.org
-#  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-#  certificateURL: "https://example.com"
+# Your accomplishments
+accomplishments:
+- name: Palo Alto Networks Systems Engineer (PSE) 
+  timeline: "July 2023"
+  organization:
+    name: Palo Alto Networks 
+    url: https://www.paloaltonetworks.com/
+  courseOverview: The PSE Strata Associate certified individual has successfully completed the specialized learning path and passed the written exam to verify they possess the necessary knowledge, skills, and abilities required to demonstrate knowledge in the competitive features and functions of Palo Alto Networks Next-Generation firewalls, execute an evaluation of Palo Alto Networks firewalls, and present a Security Lifecycle Review (SLR) report.
+  certificateURL: "https://www.credly.com/badges/75f669dd-8373-43e3-a2d1-c918e97f8413/public_url"
+- name: Certified in Cybersecurity (CC)
+  timeline: "Janvier 2023"
+  organization:
+    name: (ISC)²
+    url: https://www.isc2.org/
+  courseOverview: The PSE Strata Associate certified individual has successfully completed the specialized learning path and passed the written exam to verify they possess the necessary knowledge, skills, and abilities required to demonstrate knowledge in the competitive features and functions of Palo Alto Networks Next-Generation firewalls, execute an evaluation of Palo Alto Networks firewalls, and present a Security Lifecycle Review (SLR) report.
+  certificateURL: "https://www.credly.com/badges/75f669dd-8373-43e3-a2d1-c918e97f8413/public_url"
