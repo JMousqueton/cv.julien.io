@@ -1,13 +1,6 @@
 <!-- Add Analytics if enabled in configuration -->
 {{ with site.Params.features.analytics }}
     {{ if .enabled }}
-        <!-- Google Analytics -->
-        {{ with .google }}
-            {{ $privacyConfig:= dict (slice "Site" "Config" "Privacy" "GoogleAnalytics") $.Site.Config.Privacy.GoogleAnalytics }}
-            {{ $analyticsConfig := dict (slice "Site" "GoogleAnalytics") .id }}
-            {{ template "_internal/google_analytics.html" (merge $privacyConfig $analyticsConfig) }}
-        {{ end }}
-
         <!-- Counter.dev -->
         {{ with .counterDev }}
             <script src="https://cdn.counter.dev/script.js"
