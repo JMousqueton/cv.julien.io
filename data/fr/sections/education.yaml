@@ -10,6 +10,13 @@ section:
   # hideTitle: true
 
 degrees:
+- name: Expert de la sécurité des données, des réseaux et des systèmes (RNCP 7)
+  icon: fa-university
+  timeframe: 2023-2024
+  institution:
+    name: Ecole 2600
+    url: "https://www.ecole2600.com/"
+  extracurricularActivities: #(optional)
 - name: B.Sc. in Computer Science option Sécurité
   icon: fa-university
   timeframe: 1998-1999
