@@ -10,6 +10,14 @@ section:
   # hideTitle: true
 
 degrees:
+- name: Master in Cybersecurity
+  icon: fa-university
+  timeframe: 2023-2024
+  institution:
+    name: Ecole 2600
+    url: "https://www.ecole2600.com/"
+  extracurricularActivities: #(optional)
+- name: B.Sc. in Computer Science option Sé
 - name: B.Sc. in Computer Science (Security option)
   icon: fa-university
   timeframe: 1998-1999
