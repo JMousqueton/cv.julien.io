@@ -47,9 +47,9 @@ socialLinks:
   icon: "fab fa-blogger-b"
   url: "https://julien.io"
 
-- name: Mastodon
-  icon: "fab fa-mastodon"
-  url:  "https://infosec.exchange/@JMousqueton"
+- name: BlueSky
+  icon: "fab fa-bluesky"
+  url:  "https://bsky.app/julien.io"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
