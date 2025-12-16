@@ -11,6 +11,21 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Office anti-cybercriminalité (OFAC)
+    url: "https://lannuaire.service-public.gouv.fr/gouvernement/7532cff7-fe22-4a00-9cea-c30812e444f1"
+    location: Versailleaint Quentin, France
+    # company overview
+    overview: Member of RECyM 
+  positions:
+  - designation: Reservist 
+    start: 2025
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Evanglisation
+
+- company:
     name: Computacenter
     url: "https://www.computacenter.com"
     location: Paris, France
@@ -19,6 +34,7 @@ experiences:
   positions:
   - designation: Chief Technology Officer 
     start: 2018
+    end: 2025 
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
